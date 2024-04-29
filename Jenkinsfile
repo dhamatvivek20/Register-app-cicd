@@ -13,7 +13,7 @@ pipeline {
 		
 		stage("Checkout from SCM"){
 			steps {
-				git branch: 'main', changelog: false, poll: false, url: 'https://github.com/dhamatvivek20/register-app.git'
+				git branch: 'main', changelog: false, poll: false, url: 'https://github.com/dhamatvivek20/Register-app-cicd.git'
 			}
 		}
 
